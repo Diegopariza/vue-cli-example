@@ -33,6 +33,14 @@ export default {
 			letter-spacing: -1px;
 			text-align: center;
 			margin-bottom: 40px;
+
+			@media (min-width: 576px) {
+				font-size: 64px;
+			}
+
+			@media (min-width: 992px) {
+				font-size: 80px;
+			}
 		}
 	}
 </style>
